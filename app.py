@@ -88,7 +88,7 @@ class TokenManager:
 # SimpleTokenManager for demonstration (replace with a more secure solution in production)
 class SimpleTokenManager(TokenManager):
     def verify_token(self, token):
-        return len(token) == 32  # A simple verification for demonstration purposes
+        return data_manager.get_token(token) is not None
 
 # SSO Platform Resources
 class HomeResource(Resource):
