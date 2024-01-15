@@ -1,7 +1,3 @@
-Certainly! Here's a basic documentation template for your SSO API using Flask-RESTful. Feel free to expand and customize it based on your specific endpoints and features.
-
----
-
 # Single Sign-On (SSO) API Documentation
 
 ## Overview
@@ -140,7 +136,3 @@ curl -X POST -H "Content-Type: application/json" -d '{"token":"[token]"}' http:/
 - Ensure to securely store and handle user passwords.
 - Use HTTPS for secure communication.
 - Implement proper error handling in your client applications.
-
----
-
-Feel free to customize the documentation further based on your specific implementation and requirements. Add more details, such as request/response examples, additional endpoints, or any security considerations specific to your SSO platform.
